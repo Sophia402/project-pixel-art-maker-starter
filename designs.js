@@ -10,7 +10,7 @@
     	for(let i=0; i<= height; i++){
     		let row = table.insertRow(i);
     		for(let r=0; r<= width; r++){
-    			let cell = row.insertCell(j);
+    			let cell = row.insertCell(i);
     			cell.addEventListener("click", (o) => {
     				cell.style.backgroundColor = color.value;
     			})
@@ -36,3 +36,5 @@ let color = document.getElementById("colorPicker");
       table.firstElementChild.remove();     
     }
     )
+    console.log(design canvas);
+    
