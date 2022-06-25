@@ -7,6 +7,7 @@
   
   
   // Your code goes here!
+  //creating grid element//
   let color = document.getElementById("colorPicker");
   let table = document.getElementById("pixelCanvas");
   let sizePicker = document.getElementById("sizePicker");
@@ -40,7 +41,6 @@
   
   
   
-  // making grids
   sizePicker.addEventListener("submit", (o) => {
   
     o.preventDefault();
